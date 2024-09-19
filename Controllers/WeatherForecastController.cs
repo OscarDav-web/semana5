@@ -54,6 +54,7 @@ namespace WebApi.Controllers
         {
             string mensaje = string.Empty;
             Alumno Alumno3 = new Alumno("Juan", "Perez", "4370258", new DateTime(2005, 1, 14));
+            string numero  = "siete";
             return Alumno3.DevolverEdad();
         }
     }
